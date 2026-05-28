@@ -1,0 +1,125 @@
+import { MenuItem } from "@/types";
+
+export const menuData: MenuItem[] = [
+  // Appetizers
+  {
+    id: "1",
+    name: "Finger food",
+    price: 12.99,
+    image: "https://images.unsplash.com/photo-1541014741259-de529411b96a?auto=format&fit=crop&w=900&q=80",
+    description: "Creamy bites with herbs, fruit glaze, and crisp toast.",
+    category: "Appetizers",
+  },
+  {
+    id: "2",
+    name: "Cranberry Brie Bites",
+    price: 12.99,
+    image: "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=900&q=80",
+    description: "Soft brie, cranberry jam, crackers, and fresh chives.",
+    category: "Appetizers",
+  },
+  {
+    id: "3",
+    name: "Sunshine Stackers",
+    price: 12.99,
+    image: "https://images.unsplash.com/photo-1572695157366-5e585ab2b69f?auto=format&fit=crop&w=900&q=80",
+    description: "Tomato bruschetta, whipped cheese, basil, and olive oil.",
+    category: "Appetizers",
+  },
+  {
+    id: "4",
+    name: "Brie Crostini Appetizer",
+    price: 12.99,
+    image: "https://images.unsplash.com/photo-1604909052743-94e838986d24?auto=format&fit=crop&w=900&q=80",
+    description: "Roasted brie crostini with pomegranate and thyme.",
+    category: "Appetizers",
+  },
+  {
+    id: "5",
+    name: "Steak Toast",
+    price: 16.99,
+    image: "https://images.unsplash.com/photo-1504973960431-1c467e159aa4?auto=format&fit=crop&w=900&q=80",
+    description: "Sliced steak on garlic toast with pepper sauce.",
+    category: "Appetizers",
+  },
+  {
+    id: "6",
+    name: "Grilled chicken",
+    price: 14.99,
+    image: "https://images.unsplash.com/photo-1532550907401-a500c9a57435?auto=format&fit=crop&w=900&q=80",
+    description: "Juicy chicken breast with potatoes and tomato salsa.",
+    category: "Appetizers",
+  },
+  // Salads
+  {
+    id: "7",
+    name: "Grilled Chicken Cobb Salad",
+    price: 13.99,
+    image: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=900&q=80",
+    description: "Fresh greens, grilled chicken, avocado, egg, and blue cheese.",
+    category: "Salads",
+  },
+  {
+    id: "8",
+    name: "Burrata Caprese",
+    price: 14.99,
+    image: "https://images.unsplash.com/photo-1608032364895-84e0c9e32f8b?auto=format&fit=crop&w=900&q=80",
+    description: "Creamy burrata, heirloom tomatoes, basil, and aged balsamic.",
+    category: "Salads",
+  },
+  {
+    id: "9",
+    name: "Beetroot and Orange Salad",
+    price: 11.99,
+    image: "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=900&q=80",
+    description: "Roasted beets, citrus segments, goat cheese, and walnuts.",
+    category: "Salads",
+  },
+  // Lunch favorites
+  {
+    id: "10",
+    name: "Pan Seared Salmon",
+    price: 18.99,
+    image: "https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=900&q=80",
+    description: "Crispy-skin salmon with lemon butter, capers, and dill.",
+    category: "Lunch favorites",
+  },
+  {
+    id: "11",
+    name: "Chicken Tagliatelle",
+    price: 16.99,
+    image: "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?auto=format&fit=crop&w=900&q=80",
+    description: "Pasta with grilled chicken, tomatoes, and cream sauce.",
+    category: "Lunch favorites",
+  },
+  {
+    id: "12",
+    name: "Tuna Steak",
+    price: 22.99,
+    image: "https://images.unsplash.com/photo-1559847844-5315695dadae?auto=format&fit=crop&w=900&q=80",
+    description: "Seared tuna with wasabi, ginger, and sesame crust.",
+    category: "Lunch favorites",
+  },
+  {
+    id: "13",
+    name: "Gourmet Burger",
+    price: 14.99,
+    image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=900&q=80",
+    description: "Wagyu beef, aged cheddar, caramelized onion, and truffle aioli.",
+    category: "Lunch favorites",
+  },
+  {
+    id: "14",
+    name: "Sea Bass Fillet",
+    price: 24.99,
+    image: "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=900&q=80",
+    description: "Roasted sea bass with herb butter and seasonal vegetables.",
+    category: "Lunch favorites",
+  },
+];
+
+export const categories = [
+  "Appetizers",
+  "Salads",
+  "Lunch favorites",
+];
