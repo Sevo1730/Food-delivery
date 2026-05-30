@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useRef, useEffect } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { ShoppingCart, MapPin, User } from "lucide-react";
@@ -33,12 +34,8 @@ export default function Header() {
       <header className="sticky top-0 z-30 border-b border-white/5 bg-[#121316]">
         <nav className="mx-auto flex h-20 max-w-7xl items-center justify-between px-6">
           <Link href="/" className="flex items-center gap-3">
-            <span className="grid h-12 w-12 place-items-center rounded-full bg-[#E63B2E] shadow-lg shadow-red-500/20">
-              <svg viewBox="0 0 32 32" fill="none" className="h-7 w-7">
-                <ellipse cx="16" cy="20" rx="12" ry="5" fill="white" opacity="0.9" />
-                <path d="M4 20 Q16 8 28 20" stroke="white" strokeWidth="2.5" fill="none" />
-                <rect x="13" y="6" width="6" height="3" rx="1.5" fill="white" />
-              </svg>
+            <span className="grid h-12 w-12 place-items-center">
+              <Image src="/logo.png" alt="NomNom logo" width={48} height={48} className="object-contain" />
             </span>
             <span>
               <span className="block text-2xl font-black leading-6">
