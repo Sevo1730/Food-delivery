@@ -63,7 +63,7 @@ export const menuData: MenuItem[] = [
     id: "8",
     name: "Burrata Caprese",
     price: 14.99,
-    image: "https://images.unsplash.com/photo-1574484284002-952d92a03a52?auto=format&fit=crop&w=900&q=80",
+    image: "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?auto=format&fit=crop&w=900&q=80",
     description: "Creamy burrata, heirloom tomatoes, basil, and aged balsamic.",
     category: "Salads",
   },
