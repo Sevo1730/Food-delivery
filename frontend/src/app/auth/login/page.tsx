@@ -135,7 +135,7 @@ export default function LoginPage() {
       {/* Right – photo */}
       <div className="relative hidden lg:block lg:w-[55%]">
         <Image
-          src="/Frame 1321316047 (1).png"
+          src="/frame-banner.png"
           alt="Delivery"
           fill
           className="object-cover"

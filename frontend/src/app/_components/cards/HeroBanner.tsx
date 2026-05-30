@@ -4,7 +4,7 @@ export default function HeroBanner() {
   return (
     <section className="w-full">
       <Image
-        src="/bg.png"
+        src="/BG.png"
         alt="Today's Offer Banner"
         width={5760}
         height={2280}
