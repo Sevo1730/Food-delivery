@@ -42,7 +42,7 @@ export default function Header() {
             </span>
             <span>
               <span className="block text-2xl font-black leading-6">
-                Nom<span className="text-[#E63B2E]">Nom</span>
+                <span className="text-white">Nom</span><span className="text-[#E63B2E]">Nom</span>
               </span>
               <span className="text-sm text-zinc-400">Swift delivery</span>
             </span>
